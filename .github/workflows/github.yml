@@ -144,7 +144,7 @@ jobs:
           body: |
             Automated build for branch `${{ github.ref_name }}`.
             Commit: `${{ github.sha }}`
-          artifacts: dist/${{ github.ref_name }}.zip
+          artifacts: dist/${WRAP}.zip
           allowUpdates: true
           replacesArtifacts: true
           makeLatest: false
