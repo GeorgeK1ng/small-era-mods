@@ -103,7 +103,7 @@ jobs:
             rm -rf "$d"
           done
 
-      - name: Create full repo ZIP (wrapped folder reponame-branch)
+      - name: Package release archive
         run: |
           set -euo pipefail
 
